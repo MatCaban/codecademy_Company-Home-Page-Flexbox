@@ -104,8 +104,29 @@ figure {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 350px;
 }
 figure img {
   width: 200px;
   padding: 10px;
+}
+
+/* TEAM */
+.team {
+  background-image: url("./images/blurred-road.jpg");
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.team figure {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  flex-basis: 280px;
+  margin-bottom: 15px;
+}
+
+.team img {
+  width: 200px;
 }
