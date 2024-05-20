@@ -27,6 +27,11 @@ ul {
   font-weight: normal;
 }
 
+figure {
+  margin: 0;
+  padding: 0;
+}
+
 ol,
 ul {
   list-style: none;
@@ -73,5 +78,34 @@ header ol {
 .content {
   background-color: white;
   width: 100%;
+  padding: 10px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4.3rem;
+}
+
+.portfolio p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.portfolio-img {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+figure img {
+  width: 200px;
   padding: 10px;
 }
